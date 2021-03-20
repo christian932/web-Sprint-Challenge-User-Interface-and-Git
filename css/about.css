@@ -56,10 +56,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 p {
@@ -80,36 +82,34 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 90%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+   margin-bottom: 2%;
+   border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle-content div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px dashed black;
+  margin-right: 25rem;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content button {
+   margin-top: 2%;
 }
 
-.middle-content .boxes div {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -165,42 +165,3 @@ header {
   text-decoration: none;
   color: black;
 }
-
-button {
-  padding: 0;
-  border: none;
-  background: none;
-}
-
-/* BOXES */
-.box1 {
-  background-color: teal;
-}
-.box2 {
-  background-color: gold;
-}
-.box3 {
-  background-color: cadetblue;
-}
-.box4 {
-  background-color: coral;
-}
-.box5 {
-  background-color: crimson;
-}
-.box6 {
-  background-color: forestgreen;
-}
-.box7 {
-  background-color: darkorchid;
-}
-.box8 {
-  background-color: hotpink;
-}
-.box9 {
-  background-color: indigo;
-}
-.box10 {
-  background-color: dodgerblue;
-}
-/* BOXES DONE */
