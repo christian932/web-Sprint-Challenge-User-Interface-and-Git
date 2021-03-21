@@ -93,21 +93,46 @@ p {
 }
 
 .middle-content div {
-  display: flex;
-  flex-wrap: wrap;
+/*   display: flex;
+  flex-wrap: wrap; */
   padding-top: 2%;
   padding-bottom: 2%;
   border-bottom: 1px dashed black;
-  margin-right: 25rem;
 }
 
 .middle-content button {
    margin-top: 2%;
 }
 
+.middle-content div img {
+  padding-bottom: 2%;
+}
 
+.strategy {
+  padding-right: 50%;
+}
 
+.hww {
+  padding-left: 50%;
+  margin-top: -27rem;
+}
 
+.pww {
+  padding-right: 50%;
+}
+
+.collab {
+  padding-left: 50%;
+  margin-top: -27rem;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
 
 
 
